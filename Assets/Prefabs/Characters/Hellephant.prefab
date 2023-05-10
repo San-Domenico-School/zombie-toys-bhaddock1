@@ -150,9 +150,10 @@ AudioSource:
   m_GameObject: {fileID: 6838784455288196740}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -1808189618020300043, guid: 598332cc7b32c4e4d89f7630d14b2c46,
+    type: 2}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -254,12 +255,12 @@ MonoBehaviour:
   scoreValue: 50
   sinkSpeed: 2.5
   deathEffectTime: 2
-  deathClip: {fileID: 0}
-  hurtClip: {fileID: 0}
+  deathClip: {fileID: 8300000, guid: 8c615fd0429f34edf85539d70279360d, type: 3}
+  hurtClip: {fileID: 8300000, guid: fce027b40770a44298a6f5a4233bfb04, type: 3}
   enemyAttack: {fileID: 6838784455288196744}
   enemyMovement: {fileID: 6838784455288196745}
   animator: {fileID: 6838784455288196746}
-  audioSource: {fileID: 0}
+  audioSource: {fileID: 6838784455288196743}
   capsuleCollider: {fileID: 6838784455288196749}
   hitParticles: {fileID: 0}
   isInvulnerable: 0
