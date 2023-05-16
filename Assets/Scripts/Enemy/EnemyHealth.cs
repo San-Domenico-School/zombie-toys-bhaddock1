@@ -33,7 +33,7 @@ public class EnemyHealth : MonoBehaviour
     [SerializeField] bool isInvulnerable;				//Is the enemy immune to all damage?
 
     int currentHealth;									//Current health amount of enemy
-    bool isSinking;										//Is the enemy currently sinking?
+    public bool isSinking { private get; set; }										//Is the enemy currently sinking?
 
     //Reset() defines the default values for properties in the inspector
     void Reset ()
@@ -135,13 +135,6 @@ public class EnemyHealth : MonoBehaviour
     {
         //Disable the game object
         gameObject.SetActive(false);
-    }
-
-    // Accessed from an event in the enemy's Death animation
-    public void StartSinking()
-    {
-        //The enemy is now sinking
-        isSinking = true;
     }
 }
 
